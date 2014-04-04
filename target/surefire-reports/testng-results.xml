@@ -2,14 +2,14 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Tests" duration-ms="9565" started-at="2014-04-04T21:05:38Z" finished-at="2014-04-04T21:05:48Z">
+  <suite name="Tests" duration-ms="13370" started-at="2014-04-04T21:16:52Z" finished-at="2014-04-04T21:17:05Z">
     <groups>
     </groups>
-    <test name="Credit Card Test" duration-ms="9565" started-at="2014-04-04T21:05:38Z" finished-at="2014-04-04T21:05:48Z">
+    <test name="Credit Card Test" duration-ms="13370" started-at="2014-04-04T21:16:52Z" finished-at="2014-04-04T21:17:05Z">
       <class name="com.github.tugu.SberbankTesting.tests.CreditCardTest">
-        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="3874" started-at="2014-04-04T21:05:38Z" finished-at="2014-04-04T21:05:42Z">
+        <test-method status="PASS" signature="init()" name="init" is-config="true" duration-ms="3986" started-at="2014-04-04T21:16:52Z" finished-at="2014-04-04T21:16:56Z">
         </test-method>
-        <test-method status="FAIL" signature="testCreditCard()" name="testCreditCard" duration-ms="5635" started-at="2014-04-04T21:05:42Z" finished-at="2014-04-04T21:05:48Z">
+        <test-method status="FAIL" signature="testCreditCard()" name="testCreditCard" duration-ms="9327" started-at="2014-04-04T21:16:56Z" finished-at="2014-04-04T21:17:05Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Значение параметра 'Льготный период кредитования:' карты не совпадает expected:<50 дней> but was:<до 50 дней>]]>
@@ -20,7 +20,7 @@
 	at org.testng.Assert.failNotEquals(Assert.java:489)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:171)
-	at com.github.tugu.SberbankTesting.tests.CreditCardTest.testCreditCard(CreditCardTest.java:75)
+	at com.github.tugu.SberbankTesting.tests.CreditCardTest.testCreditCard(CreditCardTest.java:83)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -53,7 +53,7 @@
             </full-stacktrace>
           </exception>
         </test-method>
-        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="47" started-at="2014-04-04T21:05:48Z" finished-at="2014-04-04T21:05:48Z">
+        <test-method status="PASS" signature="tearDown()" name="tearDown" is-config="true" duration-ms="47" started-at="2014-04-04T21:17:05Z" finished-at="2014-04-04T21:17:05Z">
         </test-method>
       </class>
     </test>
