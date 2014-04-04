@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="tugu-pc" name="com.github.tugu.SberbankTesting.tests.CreditCardTest" tests="1" failures="1" timestamp="4 Apr 2014 18:05:48 GMT" time="9.565" errors="0">
+  <testcase name="testCreditCard" time="5.635" classname="com.github.tugu.SberbankTesting.tests.CreditCardTest">
+    <failure type="java.lang.AssertionError" message="Значение параметра &amp;apos;Льготный период кредитования:&amp;apos; карты не совпадает expected:&amp;lt;50 дней&amp;gt; but was:&amp;lt;до 50 дней&amp;gt;">
+      <![CDATA[java.lang.AssertionError: Значение параметра 'Льготный период кредитования:' карты не совпадает expected:<50 дней> but was:<до 50 дней>
+	at com.github.tugu.SberbankTesting.tests.CreditCardTest.testCreditCard(CreditCardTest.java:75)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:293)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:91)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

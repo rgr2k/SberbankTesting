@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.841 sec <<< FAILURE! - in TestSuite
+testCreditCard(com.github.tugu.SberbankTesting.tests.CreditCardTest)  Time elapsed: 5.64 sec  <<< FAILURE!
+java.lang.AssertionError: Значение параметра 'Льготный период кредитования:' карты не совпадает expected:<50 дней> but was:<до 50 дней>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at com.github.tugu.SberbankTesting.tests.CreditCardTest.testCreditCard(CreditCardTest.java:75)
+

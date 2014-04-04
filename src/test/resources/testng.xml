@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Tests">
+
+  <test name="Credit Card Test">
+    <classes>
+      <class name="com.github.tugu.SberbankTesting.tests.CreditCardTest"/>
+    </classes>
+  </test>  
+
+</suite>
